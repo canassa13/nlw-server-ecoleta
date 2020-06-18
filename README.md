@@ -60,7 +60,6 @@ This project was developed with the following technologies:
 - [Node.js][nodejs]
 - [TypeScript][typescript]
 - [Yarn][yarn]
-- [Expo][expo]
 
 ## :information_source: How to use
 
@@ -106,7 +105,6 @@ After merging your receipt request to done, you can delete a branch from yours.
 This project is under the MIT license. See the [LICENSE](https://github.com/canassa13/nlw-server-ecoleta/blob/master/LICENSE) for details.
 
 Made with ♥ by Pedro Canassa :wave: [Get in touch!](https://www.linkedin.com/in/pedrocanassa/)
-
 
 [nodejs]: https://nodejs.org/
 [typescript]: https://www.typescriptlang.org/
