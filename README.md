@@ -59,8 +59,7 @@ This project was developed with the following technologies:
 
 - [Node.js][nodejs]
 - [TypeScript][typescript]
-- [React][reactjs]
-- [React Native][rn]
+- [Yarn][yarn]
 - [Expo][expo]
 
 ## :information_source: How to use
@@ -69,24 +68,29 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 From your command line:
 
-### Install Front-end
+### Install API 
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/canassa13/nlw-web-ecoleta.git
+$ git clone https://github.com/DanielObara/NLW-1.0
 
 # Go into the repository
-$ cd nlw-web-ecoleta
+$ cd NLW-1.0/backend
 
 # Install dependencies
 $ yarn install
 
-# Run
-$ yarn start
+# Run Migrates
+$ yarn knex:migrate
 
-# running on port 3000
+# Run Seeds
+$ yarn knex:seed
+
+# Start server
+$ yarn dev
+
+# running on port 3333
 ```
-
 
 ## 🤔 How to contribute
 
@@ -99,15 +103,11 @@ After merging your receipt request to done, you can delete a branch from yours.
 
 ## :memo: License	
 
-This project is under the MIT license. See the [LICENSE](https://github.com/canassa13/nlw-web-ecoleta/blob/master/LICENSE) for details.
+This project is under the MIT license. See the [LICENSE](https://github.com/canassa13/nlw-server-ecoleta/blob/master/LICENSE) for details.
 
 Made with ♥ by Pedro Canassa :wave: [Get in touch!](https://www.linkedin.com/in/pedrocanassa/)
 
-Readme layout credits [Daniel Obara](https://www.linkedin.com/in/danielobara/).
 
 [nodejs]: https://nodejs.org/
 [typescript]: https://www.typescriptlang.org/
-[expo]: https://expo.io/
-[reactjs]: https://reactjs.org
-[rn]: https://facebook.github.io/react-native/
 [yarn]: https://yarnpkg.com/
